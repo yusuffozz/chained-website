@@ -9,7 +9,7 @@ export default function Litepaper() {
           href="/"
           className="text-xl font-semibold tracking-[0.25em] hover:text-gray-300 transition"
         >
-          CHAINEDPAD
+          CHAINED
         </a>
 
         <a
@@ -26,7 +26,7 @@ export default function Litepaper() {
       <section className="max-w-4xl mx-auto px-6 pt-24 pb-16">
 
         <p className="text-xs tracking-[0.45em] text-gray-500 mb-6">
-          CHAINEDPAD
+          CHAINED
         </p>
 
         <h1 className="text-5xl md:text-7xl font-bold tracking-tight">
@@ -54,20 +54,20 @@ export default function Litepaper() {
           </p>
 
           <h2 className="text-2xl md:text-3xl font-semibold mb-6">
-            What Is CHAINEDPAD?
+            What Is CHAINED?
           </h2>
 
           <div className="space-y-5 text-gray-400 leading-8">
 
             <p>
-              CHAINEDPAD is a proposed token launch and economic
+              CHAINED is a proposed token launch and economic
               infrastructure designed to connect new projects through
               a shared network.
             </p>
 
             <p>
               Instead of treating every token as a completely isolated
-              project, CHAINEDPAD introduces the idea of connected
+              project, CHAINED introduces the idea of connected
               token ecosystems.
             </p>
 
@@ -96,7 +96,7 @@ export default function Litepaper() {
           <div className="space-y-5 text-gray-400 leading-8">
 
             <p>
-              CHAINEDPAD aims to build a token ecosystem where
+              CHAINED aims to build a token ecosystem where
               projects can connect, grow and potentially create value
               for the wider network.
             </p>
@@ -142,7 +142,7 @@ export default function Litepaper() {
             </p>
 
             <p>
-              CHAINEDPAD is exploring a model designed to make the
+              CHAINED is exploring a model designed to make the
               relationship between projects a central part of the
               launch process.
             </p>
@@ -160,13 +160,13 @@ export default function Litepaper() {
           </p>
 
           <h2 className="text-2xl md:text-3xl font-semibold mb-6">
-            The CHAINEDPAD Concept
+            The CHAINED Concept
           </h2>
 
           <div className="space-y-5 text-gray-400 leading-8">
 
             <p>
-              At a high level, CHAINEDPAD allows a new project to
+              At a high level, CHAINED allows a new project to
               become connected to an existing project through a
               parent–child relationship.
             </p>
@@ -220,7 +220,7 @@ export default function Litepaper() {
             </p>
 
             <p>
-              CHAINEDPAD is designed around the possibility that
+              CHAINED is designed around the possibility that
               these connections can create a network effect over time.
             </p>
 
@@ -244,7 +244,7 @@ export default function Litepaper() {
 
             <p>
               CHAIN is intended to serve as the foundational asset
-              of the CHAINEDPAD ecosystem and the root of the broader
+              of the CHAINED ecosystem and the root of the broader
               network.
             </p>
 
@@ -277,7 +277,7 @@ export default function Litepaper() {
           <div className="space-y-5 text-gray-400 leading-8">
 
             <p>
-              CHAINEDPAD aims to create incentives that extend beyond
+              CHAINED aims to create incentives that extend beyond
               the initial token launch.
             </p>
 
@@ -311,7 +311,7 @@ export default function Litepaper() {
           <div className="space-y-5 text-gray-400 leading-8">
 
             <p>
-              CHAINEDPAD is currently an early-stage concept.
+              CHAINED is currently an early-stage concept.
             </p>
 
             <p>
@@ -414,7 +414,7 @@ export default function Litepaper() {
           <div className="space-y-5 text-gray-400 leading-8">
 
             <p>
-              CHAINEDPAD is an early-stage project and there is no
+              CHAINED is an early-stage project and there is no
               guarantee that the proposed architecture will be
               developed, launched or achieve product-market fit.
             </p>
@@ -455,7 +455,7 @@ export default function Litepaper() {
           <div className="space-y-5 text-gray-400 leading-8">
 
             <p>
-              CHAINEDPAD is exploring a simple idea:
+              CHAINED is exploring a simple idea:
             </p>
 
             <p className="text-2xl md:text-3xl text-white font-semibold leading-relaxed">
@@ -486,7 +486,7 @@ export default function Litepaper() {
         <div className="border-t border-white/10 pt-16 text-center">
 
           <h2 className="text-3xl md:text-5xl font-bold tracking-tight">
-            CHAINEDPAD
+            CHAINED
           </h2>
 
           <p className="mt-5 text-gray-500 tracking-[0.25em] text-sm">
@@ -502,7 +502,7 @@ export default function Litepaper() {
       <footer className="border-t border-white/10 px-8 py-8 text-center">
 
         <p className="text-xs text-gray-600 tracking-[0.25em]">
-          CHAINEDPAD · LITEPAPER v0.2 · 2026
+          CHAINED · LITEPAPER v0.2 · 2026
         </p>
 
       </footer>

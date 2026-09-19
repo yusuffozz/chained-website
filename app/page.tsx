@@ -8,7 +8,7 @@ export default function Home() {
           href="/"
           className="text-xl font-semibold tracking-[0.25em]"
         >
-          CHAINEDPAD
+          CHAINED
         </a>
 
         <a
@@ -32,7 +32,7 @@ export default function Home() {
           </p>
 
           <h1 className="text-6xl md:text-8xl font-bold tracking-tight">
-            CHAINEDPAD
+            CHAINED
           </h1>
 
           <p className="mt-8 text-xl md:text-2xl text-gray-400">
@@ -78,7 +78,7 @@ export default function Home() {
 
       {/* FOOTER */}
       <footer className="px-8 py-6 text-center text-xs text-gray-600 tracking-widest">
-        CHAINEDPAD · 2026
+        CHAINED · 2026
       </footer>
 
     </main>
