@@ -4,11 +4,13 @@ export default function Home() {
 
       {/* NAVBAR */}
       <nav className="w-full px-8 py-6 flex justify-between items-center">
-        <a
-          href="/"
-          className="text-xl font-semibold tracking-[0.25em]"
-        >
-          CHAINED
+
+        <a href="/" className="inline-flex items-center">
+          <img
+            src="/chained-header.png"
+            alt="CHAINED"
+            className="h-8 w-auto object-contain"
+          />
         </a>
 
         <a
@@ -19,6 +21,7 @@ export default function Home() {
         >
           X
         </a>
+
       </nav>
 
 
@@ -31,9 +34,16 @@ export default function Home() {
             A NETWORKED TOKEN LAUNCH & ECONOMIC INFRASTRUCTURE
           </p>
 
-          <h1 className="text-6xl md:text-8xl font-bold tracking-tight">
-            CHAINED
-          </h1>
+
+          {/* MAIN LOGO */}
+          <div className="flex justify-center">
+            <img
+              src="/chained-header.png"
+              alt="CHAINED"
+              className="w-[430px] max-w-[85vw] h-auto object-contain"
+            />
+          </div>
+
 
           <p className="mt-8 text-xl md:text-2xl text-gray-400">
             Don&apos;t launch alone.
