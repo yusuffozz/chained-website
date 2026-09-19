@@ -1,9 +1,22 @@
 @import "tailwindcss";
 
 :root {
-  --background: #ffffff;
-  --foreground: #171717;
-/* Prevent text/image selection */
+  --background: #000000;
+  --foreground: #ffffff;
+}
+
+html,
+body {
+  margin: 0;
+  padding: 0;
+  width: 100%;
+  min-height: 100%;
+  overflow-x: hidden;
+  background: var(--background);
+  color: var(--foreground);
+}
+
+/* Prevent text selection */
 * {
   user-select: none;
   -webkit-user-select: none;
@@ -16,14 +29,17 @@ img {
   user-drag: none;
 }
 
-/* Prevent unwanted horizontal scrolling */
-html,
-body {
-  overflow-x: hidden;
-}
-
-/* Prevent mobile browser tap highlighting */
+/* Prevent mobile tap highlight */
 a,
 button {
   -webkit-tap-highlight-color: transparent;
+}
+
+/* Prevent horizontal overflow */
+html {
+  overflow-x: hidden;
+}
+
+body {
+  overflow-x: hidden;
 }
