@@ -17,6 +17,7 @@ export const metadata: Metadata = {
   description: "a token builds another. together.",
   icons: {
     icon: "/logo.png",
+  },
 };
 
 export default function RootLayout({ children }: LayoutProps<"/">) {
