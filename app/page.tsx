@@ -1,10 +1,14 @@
 export default function Home() {
+  // Token launch edildikten sonra buradaki CA adresini değiştireceğiz.
+  const pumpFunUrl = "https://pump.fun/coin/CA_ADRESI";
+
   return (
     <main className="min-h-screen bg-black text-white flex flex-col">
 
       {/* NAVBAR */}
       <nav className="w-full px-8 py-6 flex justify-between items-center">
 
+        {/* LEFT - CHAINED LOGO */}
         <a href="/" className="inline-flex items-center">
           <img
             src="/chained-header.png"
@@ -13,14 +17,42 @@ export default function Home() {
           />
         </a>
 
-        <a
-          href="https://x.com/chainedpad"
-          target="_blank"
-          rel="noopener noreferrer"
-          className="text-sm text-gray-400 hover:text-white transition"
-        >
-          X
-        </a>
+
+        {/* RIGHT - PUMP.FUN + X */}
+        <div className="flex items-center gap-5">
+
+          {/* PUMP.FUN */}
+          <a
+            href={pumpFunUrl}
+            target="_blank"
+            rel="noopener noreferrer"
+            aria-label="Buy CHAINED on Pump.fun"
+            className="opacity-70 hover:opacity-100 hover:scale-110 transition-all duration-200"
+          >
+            <img
+              src="/pumpfun.png"
+              alt="Pump.fun"
+              className="w-6 h-6 object-contain"
+            />
+          </a>
+
+
+          {/* X */}
+          <a
+            href="https://x.com/chainedpad"
+            target="_blank"
+            rel="noopener noreferrer"
+            aria-label="CHAINED on X"
+            className="opacity-70 hover:opacity-100 hover:scale-110 transition-all duration-200"
+          >
+            <img
+              src="/x.png"
+              alt="X"
+              className="w-6 h-6 object-contain"
+            />
+          </a>
+
+        </div>
 
       </nav>
 
@@ -45,6 +77,7 @@ export default function Home() {
           </div>
 
 
+          {/* TAGLINE */}
           <p className="mt-8 text-xl md:text-2xl text-gray-400">
             Don&apos;t launch alone.
             <br />
