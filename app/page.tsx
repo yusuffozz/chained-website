@@ -5,20 +5,19 @@ export default function Home() {
       {/* NAVBAR */}
       <nav className="w-full px-8 py-6 flex justify-between items-center">
 
-        {/* CHAINED LOGO */}
+        {/* CHAINED HEADER LOGO */}
         <a
           href="/"
           draggable={false}
           className="select-none"
         >
           <img
-            src="/header-logo.png"
+            src="/chained-header.png"
             alt="chained"
             draggable={false}
             className="h-6 w-auto pointer-events-none select-none"
           />
         </a>
-
 
         {/* RIGHT SIDE ICONS */}
         <div className="flex items-center gap-5">
@@ -32,13 +31,12 @@ export default function Home() {
             className="opacity-80 hover:opacity-100 transition"
           >
             <img
-              src="/pumpfun-logo.png"
+              src="/pumpfun.png"
               alt="Pump.fun"
               draggable={false}
               className="w-5 h-5 object-contain pointer-events-none select-none"
             />
           </a>
-
 
           {/* X */}
           <a
@@ -49,7 +47,7 @@ export default function Home() {
             className="opacity-80 hover:opacity-100 transition"
           >
             <img
-              src="/x-logo.png"
+              src="/x.png"
               alt="X"
               draggable={false}
               className="w-5 h-5 object-contain pointer-events-none select-none"
@@ -72,11 +70,11 @@ export default function Home() {
           </p>
 
 
-          {/* MAIN LOGO */}
+          {/* MAIN CHAINED LOGO */}
           <div className="flex justify-center">
 
             <img
-              src="/header-logo.png"
+              src="/chained-header.png"
               alt="CHAINED"
               draggable={false}
               className="
@@ -101,7 +99,6 @@ export default function Home() {
 
           {/* COMING SOON */}
           <div className="mt-10">
-
             <span
               className="
                 inline-block
@@ -116,7 +113,6 @@ export default function Home() {
             >
               COMING SOON
             </span>
-
           </div>
 
 
