@@ -32,16 +32,6 @@ export default function Litepaper() {
       {/* HEADER */}
       <section className="max-w-4xl mx-auto px-6 pt-24 pb-16">
 
-        {/* LARGE CHAINED LOGO */}
-        <div className="mb-10">
-          <img
-            src="/chained-header.png"
-            alt="chained"
-            draggable={false}
-            className="w-[280px] md:w-[400px] h-auto object-contain select-none"
-          />
-        </div>
-
         {/* LITEPAPER TITLE */}
         <h1 className="text-5xl md:text-7xl font-bold tracking-tight">
           Litepaper
