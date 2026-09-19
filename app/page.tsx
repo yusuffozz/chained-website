@@ -40,7 +40,7 @@ export default function Home() {
             <img
               src="/chained-header.png"
               alt="CHAINED"
-              className="w-[430px] max-w-[85vw] h-auto object-contain"
+              className="w-[560px] max-w-[90vw] h-auto object-contain"
             />
           </div>
 
