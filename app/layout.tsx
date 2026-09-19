@@ -14,7 +14,9 @@ const geistMono = Geist_Mono({
 
 export const metadata: Metadata = {
   title: "chained",
-  description: "a token builds another. together."
+  description: "a token builds another. together.",
+  icons: {
+    icon: "/logo.png",
 };
 
 export default function RootLayout({ children }: LayoutProps<"/">) {
