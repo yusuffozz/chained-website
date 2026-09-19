@@ -6,48 +6,54 @@ export default function Home() {
       <nav className="w-full px-8 py-6 flex justify-between items-center">
 
         {/* CHAINED LOGO */}
-        <a href="/" className="block">
+        <a
+          href="/"
+          className="flex items-center"
+        >
           <img
             src="/chained-header.png"
             alt="chained"
-            className="w-[105px] h-auto object-contain"
-            draggable="false"
+            draggable={false}
+            className="h-10 md:h-12 w-auto object-contain select-none"
           />
         </a>
 
-        {/* SOCIAL LINKS */}
-        <div className="flex items-center gap-5">
+        {/* SOCIAL / LAUNCH LINKS */}
+        <div className="flex items-center gap-6">
 
+          {/* PUMPFUN */}
           <a
-            href="https://pump.fun"
+            href="#"
             target="_blank"
             rel="noopener noreferrer"
-            className="block"
+            className="flex items-center justify-center opacity-80 hover:opacity-100 transition"
+            aria-label="Pump.fun"
           >
             <img
               src="/pumpfun.png"
-              alt="pump.fun"
-              className="w-5 h-5 object-contain"
-              draggable="false"
+              alt="Pump.fun"
+              draggable={false}
+              className="w-7 h-7 md:w-8 md:h-8 object-contain select-none"
             />
           </a>
 
+          {/* X */}
           <a
             href="https://x.com/chainedpad"
             target="_blank"
             rel="noopener noreferrer"
-            className="block"
+            className="flex items-center justify-center opacity-80 hover:opacity-100 transition"
+            aria-label="X"
           >
             <img
               src="/x.png"
               alt="X"
-              className="w-5 h-5 object-contain"
-              draggable="false"
+              draggable={false}
+              className="w-7 h-7 md:w-8 md:h-8 object-contain select-none"
             />
           </a>
 
         </div>
-
       </nav>
 
 
@@ -56,23 +62,25 @@ export default function Home() {
 
         <div className="text-center max-w-4xl">
 
+          {/* SUBTITLE */}
           <p className="text-sm tracking-[0.45em] text-gray-500 mb-8">
-            A NETWORKED TOKEN LAUNCH & ECONOMIC INFRASTRUCTURE
+            A NETWORKED TOKEN LAUNCH &amp; ECONOMIC INFRASTRUCTURE
           </p>
 
 
           {/* LARGE CHAINED LOGO */}
-          <div className="flex justify-center items-center">
+          <div className="flex justify-center mb-10">
             <img
               src="/chained-header.png"
               alt="chained"
-              className="w-[340px] md:w-[420px] h-auto object-contain"
-              draggable="false"
+              draggable={false}
+              className="w-[280px] md:w-[400px] h-auto object-contain select-none"
             />
           </div>
 
 
-          <p className="mt-8 text-xl md:text-2xl text-gray-400">
+          {/* SLOGAN */}
+          <p className="text-xl md:text-2xl text-gray-400">
             Don&apos;t launch alone.
             <br />
             Build on a network.

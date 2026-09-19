@@ -1,22 +1,24 @@
 export default function Litepaper() {
   return (
-    <main className="min-h-screen bg-black text-white">
+    <main className="min-h-screen bg-black text-white select-none">
 
       {/* NAVBAR */}
       <nav className="w-full px-8 py-6 flex justify-between items-center border-b border-white/10">
 
+        {/* CHAINED LOGO */}
         <a
           href="/"
-          className="flex items-center hover:opacity-80 transition"
+          className="flex items-center"
         >
           <img
             src="/chained-header.png"
             alt="chained"
-            className="h-8 w-auto object-contain"
-            draggable="false"
+            draggable={false}
+            className="h-10 md:h-12 w-auto object-contain select-none"
           />
         </a>
 
+        {/* HOME */}
         <a
           href="/"
           className="text-sm text-gray-500 hover:text-white transition"
@@ -30,19 +32,22 @@ export default function Litepaper() {
       {/* HEADER */}
       <section className="max-w-4xl mx-auto px-6 pt-24 pb-16">
 
-        <div className="mb-8">
+        {/* LARGE CHAINED LOGO */}
+        <div className="mb-10">
           <img
             src="/chained-header.png"
             alt="chained"
-            className="h-10 md:h-12 w-auto object-contain"
-            draggable="false"
+            draggable={false}
+            className="w-[280px] md:w-[400px] h-auto object-contain select-none"
           />
         </div>
 
+        {/* LITEPAPER TITLE */}
         <h1 className="text-5xl md:text-7xl font-bold tracking-tight">
           Litepaper
         </h1>
 
+        {/* SLOGAN */}
         <p className="mt-6 text-lg md:text-xl text-gray-400 max-w-2xl leading-relaxed">
           Don&apos;t launch alone.
           <br />
@@ -182,9 +187,11 @@ export default function Litepaper() {
             </p>
 
             <div className="my-10 py-8 border border-white/10 text-center">
+
               <p className="text-xl md:text-2xl text-white tracking-wide">
                 CHAIN → PROJECT A → PROJECT B
               </p>
+
             </div>
 
             <p>
@@ -416,7 +423,7 @@ export default function Litepaper() {
           </p>
 
           <h2 className="text-2xl md:text-3xl font-semibold mb-6">
-            Risks & Disclaimer
+            Risks &amp; Disclaimer
           </h2>
 
           <div className="space-y-5 text-gray-400 leading-8">
@@ -493,12 +500,13 @@ export default function Litepaper() {
         {/* FINAL */}
         <div className="border-t border-white/10 pt-16 text-center">
 
+          {/* LARGE FINAL LOGO */}
           <div className="flex justify-center">
             <img
               src="/chained-header.png"
               alt="chained"
-              className="h-14 md:h-20 w-auto object-contain"
-              draggable="false"
+              draggable={false}
+              className="w-[220px] md:w-[320px] h-auto object-contain select-none"
             />
           </div>
 
