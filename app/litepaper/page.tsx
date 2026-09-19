@@ -7,9 +7,14 @@ export default function Litepaper() {
 
         <a
           href="/"
-          className="text-xl font-semibold tracking-[0.25em] hover:text-gray-300 transition"
+          className="flex items-center hover:opacity-80 transition"
         >
-          CHAINED
+          <img
+            src="/chained-header.png"
+            alt="chained"
+            className="h-8 w-auto object-contain"
+            draggable="false"
+          />
         </a>
 
         <a
@@ -25,9 +30,14 @@ export default function Litepaper() {
       {/* HEADER */}
       <section className="max-w-4xl mx-auto px-6 pt-24 pb-16">
 
-        <p className="text-xs tracking-[0.45em] text-gray-500 mb-6">
-          CHAINED
-        </p>
+        <div className="mb-8">
+          <img
+            src="/chained-header.png"
+            alt="chained"
+            className="h-10 md:h-12 w-auto object-contain"
+            draggable="false"
+          />
+        </div>
 
         <h1 className="text-5xl md:text-7xl font-bold tracking-tight">
           Litepaper
@@ -172,11 +182,9 @@ export default function Litepaper() {
             </p>
 
             <div className="my-10 py-8 border border-white/10 text-center">
-
               <p className="text-xl md:text-2xl text-white tracking-wide">
                 CHAIN → PROJECT A → PROJECT B
               </p>
-
             </div>
 
             <p>
@@ -485,15 +493,21 @@ export default function Litepaper() {
         {/* FINAL */}
         <div className="border-t border-white/10 pt-16 text-center">
 
-          <h2 className="text-3xl md:text-5xl font-bold tracking-tight">
-            CHAINED
-          </h2>
+          <div className="flex justify-center">
+            <img
+              src="/chained-header.png"
+              alt="chained"
+              className="h-14 md:h-20 w-auto object-contain"
+              draggable="false"
+            />
+          </div>
 
           <p className="mt-5 text-gray-500 tracking-[0.25em] text-sm">
             DON&apos;T LAUNCH ALONE.
           </p>
 
         </div>
+
 
       </section>
 
